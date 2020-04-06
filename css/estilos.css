@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: 'Stardos Stencil', cursive;
+    background-image: url(../img/form.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Black Ops One', cursive;
+}
+
+.cabecera {
+    /*background-image: url(../img/SEO\ &\ WEB.jpg);*/
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.cabecera h1 {
+    font-family:'Black Ops One', cursive 'Stardos Stencil', cursive;
+    font-size: 4.3em;
+}
+
+.frase {
+   /* background: rgba(0, 0, 0, .2);*/
+    color: black;
+    float: left;
+    width: 800px;
+    height: 500px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.frase h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 3em;
+    color: black;
+    font-family: /*'Black Ops One', cursive, 'Stardos Stencil', cursive,*/ 'Bungee Shade', cursive; 
+}
+
+.caja {
+   background: rgba(0, 0, 0, 1);
+   float: right;
+   width: 500px;
+   height: 500px;
+   padding: 8px 8px 8px 8px;
+   margin-top: 30px;
+   margin-right: 20px;
+   border-radius: 8px;
+}
+
+.caja input[type="text"], .caja input[type="email"] {
+    border: 0;
+    width: 250px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #069;
+    padding: 10px 10px;
+    outline: none;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.caja input[type="text"]:focus, .caja input[type="email"]:focus {
+    width: 280px;
+    border-color: brown;
+}
+
+.caja input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 100px;
+    background-color: #de0c18;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.caja input[type="submit"]:hover {
+    background: #069;
+}
+
+.registro {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.beneficios {
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.uno {
+    background: none;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.dos {
+    background: none;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.tres {
+    background: none;
+    color: white;
+    float: right;
+    text-align: center;
+    width: 180px;
+    margin-top: 40px;
+    margin-right: 70px;
+
+}
+
+.cuatro {
+    background: none;
+    color: white;
+    float: right;
+    text-align: center;
+    width: 180px;
+    margin-top: 40px;
+    margin-right: 170px;
+} 
+
+#lupa, #codigo, #seguridad, #actualizacion {
+    margin-bottom: 25px;
+    font-size: 50px;
+    transition: .2s;
+}
+
+#lupa:hover {
+    color: rgb(119, 0, 0);
+    font-size: 55px;
+    cursor: pointer;
+}
+
+#codigo:hover {
+    color: rgb(226, 241, 6);
+    font-size: 55px;
+    cursor: pointer;
+}
+
+#seguridad:hover {
+    color: rgb(2, 219, 235);
+    font-size: 55px;
+    cursor: pointer;
+}
+
+#actualizacion:hover {
+    color: rgb(2, 65, 0);
+    font-size: 55px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.0em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.redes {
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 310px;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.redes h1 {
+    padding-top: 30px;
+    color: orangered;
+    font-family: 'Black Ops One', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.insta, .twitter, .correo {
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: none;
+    margin-top: 60px;
+    margin-left: 260px;
+    text-align: center;
+}
+
+
+#insta, #twitter, #correo {
+    font-size: 70px;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+#insta:hover {
+    font-size: 80px;
+    color: #5518AB;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    font-size: 80px;
+    color: #00acee;
+    cursor: pointer;
+}
+
+#correo:hover {
+    font-size: 80px;
+    color: #db4a39;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+
+#gracias {
+    width: 100%;
+    background: black;
+    font-size: 40px;
+    color: white;
+    font-family: 'Black Ops One', cursive 'Stardos Stencil', cursive;
+    margin-top: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
